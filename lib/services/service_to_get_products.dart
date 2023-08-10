@@ -19,35 +19,38 @@ class ProductsService {
     List<Products> products = list.map((m) => Products.fromJSON(m)).toList();
     print(products.runtimeType);
     return products;
-    /*return [
-    / Products(
-          price: 299,
-          id: 100,
-          label: "Earphones",
-          url:
-              "https://5.imimg.com/data5/FK/HU/MY-44140202/apple-iphone-earphone-1000x1000.jpg"),
-      Products(
-          price: 49.999,
-          id: 101,
-          label: "Laptops",
-          url: "https://www.asus.com/media/Odin/Websites/global/Series/9.png"),
-      Products(
-          price: 1999,
-          id: 102,
-          label: "Watches",
-          url:
-              "http://cdn.shopify.com/s/files/1/0266/1371/0884/products/Ice_Blue_3_f44256ba-0851-4631-817a-f86413f2d736-sw_grande.png?v=1667996101"),
-      Products(
-          price: 10.999,
-          id: 104,
-          label: "Smartphones",
-          url:
-              "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61NoYt2pvpS._SX679_.jpg"),
-      Products(
-          price: 20.000,
-          id: 105,
-          label: "Electronics",
-          url: "https://www.pngall.com/wp-content/uploads/1/Electronic.png"),
-    ]; */
+    // return [
+    //   Products(
+    //       price: 299,
+    //       id: 100,
+    //       label: "Earphones",
+    //       url:
+    //           "https://5.imimg.com/data5/FK/HU/MY-44140202/apple-iphone-earphone-1000x1000.jpg"),
+    //   Products(
+    //       price: 49.999,
+    //       id: 101,
+    //       label: "Laptops",
+    //       url: "https://www.asus.com/media/Odin/Websites/global/Series/9.png"),
+    //   Products(
+    //       price: 1999,
+    //       id: 102,
+    //       label: "Watches",
+    //       url:
+    //           "http://cdn.shopify.com/s/files/1/0266/1371/0884/products/Ice_Blue_3_f44256ba-0851-4631-817a-f86413f2d736-sw_grande.png?v=1667996101"),
+    //   Products(
+    //       price: 10.999,
+    //       id: 104,
+    //       label: "Smartphones",
+    //       url:
+    //           "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61NoYt2pvpS._SX679_.jpg"),
+    //   Products(
+    //       price: 20.000,
+    //       id: 105,
+    //       label: "Electronics",
+    //       url: "https://www.pngall.com/wp-content/uploads/1/Electronic.png"),
+    //   Products(
+    //     price:
+    //   )
+    // ];
   }
 }
